@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#theFather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #21295C;
+}
+
+#header {
+    width: 100vw;
+    height: 20vh;
+    background-color: #21295C;
+    color: white;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 3vw;
+}
+
+#game {
+    width: 100vw;
+    height: 80vh;
+    background-color: #21295C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: .5s;
+}
+
+#rock {
+    height: 40vh;
+    width: 18vw;
+    font-size: 3vw;
+    margin: 5vh;
+    background-image: url("Images/angryRock.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    border-radius: 2vh;
+}
+
+#paper {
+    height: 40vh;
+    width: 20vw;
+    font-size: 3vw;
+    margin: 5vh;
+    background-image: url("Images/angryPaper.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    border-radius: 2vh;
+}
+
+#scissors {
+    height: 40vh;
+    width: 25vw;
+    font-size: 3vw;
+    margin: 5vh;
+    background-image: url("Images/angryScissors.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    border-radius: 2vh;
+}
+
+#feedback {
+    color: white;
+    font-size: 3vw;
+    margin-top: 5vh;
+    transition: .5s;
+}
+
+#playButton {
+    width:20vw;
+    height: 10vh;
+    font-size: 2.5vw;
+    border-radius: .5vh;
+    margin-bottom: 5vh;
+    transition: .5s;
+    background-color: #A9DEF9;
+}
